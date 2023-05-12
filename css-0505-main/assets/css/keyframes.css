@@ -1,0 +1,10 @@
+/* @ para animacao ( nao é uma classe ) */
+@keyframes arrow {
+    50%{
+        transform:translateY(7px);/*porcentagem da transicao e o que ela faz*/
+    }
+
+    100%{
+        transform: translateY(-7px);
+    }
+}

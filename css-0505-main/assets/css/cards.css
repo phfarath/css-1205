@@ -8,7 +8,7 @@
     padding: 10px;
     display: flex;/*posiciona ao lado um do outro*/
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap;/*um abaixo do outro na falta de espaço*/
     align-items: center;/*itens ao centro*/
     justify-content: space-evenly;/*espaco entre e mantem padrao*/
     row-gap: 20px;/*espacamento entre elementos*/
@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
+    border: 2px solid #fff;
     box-shadow: 1px 1px 30px #665;
     border-radius: 15px;
     transition: .5s;/*transiçao do hover*/
