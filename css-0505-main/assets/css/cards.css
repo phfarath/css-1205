@@ -1,0 +1,40 @@
+/* class container card para container2  */
+.container-card /*pai*/{
+    width: 100%;
+    /* minimo de 100vh porem pode aumentar  */
+    min-height: 100vh;
+    color: #FFF;
+    /* separando os cards de vinho da borda do site */
+    padding: 10px;
+    display: flex;/*posiciona ao lado um do outro*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;/*itens ao centro*/
+    justify-content: space-evenly;/*espaco entre e mantem padrao*/
+    row-gap: 20px;/*espacamento entre elementos*/
+}
+.card-item/*filho*/{
+    /* separando a imagem do teto do container  */
+    padding: 20px 0;
+    /* arumando card  */
+    width: 30%;
+    text-align: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 1px 1px 30px #665;
+    border-radius: 15px;
+    transition: .5s;/*transiçao do hover*/
+}
+/* imagem do card item  */
+.card-item img{
+    width: 80%;
+    border-radius: 15px;
+}
+/* transformacao quando o mouse passa encima  */
+.card-item:hover{
+    transform: scale(1.1);/*transformacao do hover*/
+}
